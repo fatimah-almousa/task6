@@ -1,16 +1,15 @@
-76 ?- can_buy(100000, red).
+80 ?- can_buy(100000, red).
 With 80000 you can purchase the car datsun
-true ;
-false.
+true.
 
-77 ?- can_buy(100000, blue).
+81 ?- can_buy(100000, blue).
 With 80000 you can purchase the truck ford
 true.
 
-78 ?- can_buy(100000, green).
+82 ?- can_buy(100000, green).
 false.
 
-79 ?- can_buy(100000).
+83 ?- can_buy(100000).
 With 90000 you can purchase the car ford
 true ;
 With 80000 you can purchase the car datsun
