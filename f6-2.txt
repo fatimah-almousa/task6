@@ -1,4 +1,4 @@
-81 ?- menu.
+84 ?- menu.
 
 Welcome to the Prolog Game Selection
 
@@ -11,9 +11,10 @@ Please choose any number
 -->> Enter option: 1.
 
 Welcome to Running Games
-1 - to play Cricket
-2 - to play Tennis
-3 - to play Rugby
+-------------------------
+1 - to choose to play with bat
+2 - to choose to play with racket
+3 - to choose to play with bare hands
 4 - to play Football
 -->> Enter option: |: 4.
 
@@ -32,8 +33,10 @@ Please choose any number
 -->> Enter option: |: 2.
 
 Welcome to Non-Running Games
-1 - to play Tai Chi
-2 - to play Volleyball
+--------------------------
+1 - to choose to play individual
+2 - to choose to play in a group
+
 3 - to play Chess
 -->> Enter option: |: 3.
 
@@ -56,4 +59,4 @@ Sorry, you chose the wrong option...
 Do you want to go back to the main menu (yes/no)? |: no.
 
 ===< End >===
-true .
+true.
